@@ -1,6 +1,11 @@
-<?php namespace Leelam\Boilerplate\Controller;
+<?php namespace Leelam\Boilerplate\Http\Controllers;
 
 
-class BoilerplateController {
+class BoilerplateController extends BaseController{
+
+    public function index()
+    {
+        return view('boilerplate::boilerplates.index');
+    }
 
 }

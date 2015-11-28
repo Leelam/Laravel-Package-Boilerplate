@@ -4,7 +4,5 @@
  * User: Gopal Krishna Mosali
  * Email : krishna@leelam.com
  * Date: 28/11/15
- * Time: 10:45 AM
+ * Time: 12:51 PM
  */
-
-Route::get('/', 'Leelam\Boilerplate\Http\Controllers\BoilerplateController@index');
