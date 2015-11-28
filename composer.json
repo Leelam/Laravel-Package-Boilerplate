@@ -1,0 +1,23 @@
+{
+    "name": "leelam/boilerplate",
+    "description": "Basic Laravel package structure, Working with Laravel 5.3.0 - dev",
+    "keywords": ["laravel", "Package", "Boilerplate", "leelam"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gopal Krishna Mosali",
+            "email": "krishna@leelam.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Leelam\\Boilerplate\\": "src/"
+        },
+        "files": [
+            "src/Http/helpers.php"
+        ]
+    },
+    "require": {
+        "illuminate/support": "~5"
+    }
+}
